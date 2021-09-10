@@ -1,0 +1,106 @@
+/* Style the body */
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+  .bg-img {
+    background-image: url("img.jpg");
+    height: 155vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Navbar links */
+
+.topnav a 
+{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover 
+{
+  background-color: #ddd;
+  color: black;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+.navbar 
+{
+  width: 100%;
+  background-color: rgba(72, 3, 119, 0.8491);
+  overflow: auto;
+}
+
+.navbar a 
+{
+  float: left;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover 
+{
+  background-color: #000;
+}
+
+.active 
+{
+  background-color: #c75d56d8;
+}
+.container{
+  text-align: center;
+}
+
+.mySlides {
+  display:block;
+}
+
+@media screen and (max-width: 500px) 
+{
+  .navbar a 
+  {
+    float: none;
+    display: block;
+  }
+}
+  /* Header Logo Title */
+  .header {
+    padding: 5px;
+    text-align: center;
+    background: #8735f1;
+    opacity: 0.9;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Page Content */
+  .content {padding:20px;}
+
+/* button styling */
+  .btn {
+    background-color: rgb(68, 94, 212);
+    border: none;
+    color: rgb(243, 241, 241);
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    width: 150px;
+    border-radius: 30px;
+    
+  }
+  .btn:hover {
+    background-color: #000000;
+    color: rgb(43, 89, 187);
+  }
+ 
